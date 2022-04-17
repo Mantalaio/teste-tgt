@@ -25,7 +25,7 @@ public class SpringbootBackendApplication implements CommandLineRunner {
 		Cliente cliente1 = Cliente.builder()
 			.nomeCompleto("Caio Alves Cardoso")
 			.cpf("555.555.555-55")
-			.endereco("Rua copaiba casa 12 - São Paulo")
+			.endereco("Rua copaiba casa 12 - Rio de Janeiro")
 			.renda("2.200,00")
 			.bancoAtual("Banco do Brasil")
 			.build();
@@ -33,7 +33,7 @@ public class SpringbootBackendApplication implements CommandLineRunner {
 		Cliente cliente2 = Cliente.builder()
 			.nomeCompleto("Sora Daniel Nunes")
 			.cpf("666.666.666-66")
-			.endereco("Rua presidente prudente casa 5 - São Paulo")	
+			.endereco("Rua presidente prudente casa 5 - Minas Gerais")	
 			.renda("5.000,00")
 			.bancoAtual("Bradesco")
 			.build();
@@ -42,7 +42,7 @@ public class SpringbootBackendApplication implements CommandLineRunner {
 		Cliente cliente3 = Cliente.builder()
 			.nomeCompleto("Tony Stark")
 			.cpf("777.777.777-77")
-			.endereco("SHVP Casa 12 - Brasília")
+			.endereco("SHVP Casa 12 - Mato Grosso")
 			.renda("10.000,00")
 			.bancoAtual("Santander")
 			.build();
